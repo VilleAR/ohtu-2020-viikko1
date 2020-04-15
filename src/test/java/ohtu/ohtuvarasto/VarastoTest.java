@@ -109,7 +109,7 @@ public class VarastoTest {
         varasto.otaVarastosta(2);
 
         // varastossa pitäisi olla tilaa 10 - 8 + 2 eli 4
-        assertEquals(5, varasto.paljonkoMahtuu(), vertailuTarkkuus);
+        assertEquals(4, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
     @Test
     public void merkkiEsitys() {
